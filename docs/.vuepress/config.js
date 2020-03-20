@@ -1,10 +1,10 @@
 module.exports = {
   title: "Just Fly",
-  base: '/notesBlog/',
   // favicons图标
   head: [
     ['link', { rel: 'icon', href: '/favicons.png' }]
   ],
+  base: "/notesBlog/",
   themeConfig: {
     // 是否启用导航栏
     // navbar: true,
