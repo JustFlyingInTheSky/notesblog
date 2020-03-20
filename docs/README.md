@@ -18,15 +18,14 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-```
-cout << "Hello, world!" << endl;
-print("我要触摸这个世界!")
-var_dump("终将翱翔!");
-println!("努力学习!");
-echo("加油!");
-alert("我要登上山顶，看到那边的风光!");
-console.log("我们这个世界，从不会给一个伤心的落伍者颁发奖牌!");
-System.out.println("勤奋是我生命的密码，终能译出我一部壮丽的史诗!");
-printf("志在峰巅的攀登者，不会陶醉在沿途的某个脚印之中!\n");
-
-```
+::: tip Fight
+**<center>Hello, world!</center>**
+**<center>我要触摸这个世界!</center>**
+**<center>终将翱翔!</center>**
+**<center>努力学习!</center>**
+**<center>加油!</center>**
+**<center>我要登上山顶，看到那边的风光!</center>**
+**<center>我们这个世界，从不会给一个伤心的落伍者颁发奖牌!</center>**
+**<center>勤奋是我生命的密码，终能译出我一部壮丽的史诗!</center>**
+**<center>志在峰巅的攀登者，不会陶醉在沿途的某个脚印之中!</center>**
+:::

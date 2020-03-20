@@ -1,6 +1,10 @@
 module.exports = {
   title: "Just Fly",
   base: '/notesBlog/',
+  // favicons图标
+  head: [
+    ['link', { rel: 'icon', href: '/favicons.png' }]
+  ],
   themeConfig: {
     // 是否启用导航栏
     // navbar: true,
@@ -11,7 +15,6 @@ module.exports = {
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: 'VuePress', link:'https://vuepress.vuejs.org/zh/'},
       { text: '个人简历', link: '/resume/' },
 
       // 笔记导航栏 分组
@@ -23,18 +26,21 @@ module.exports = {
             text: '整理完成',
             items: [
               { text: 'HTML笔记', link: '/html/' },
-              { text: 'CSS笔记', link: '/css/' },
-              { text: 'JS笔记', link: '/javaScript/' },
+              { text: 'CSS笔记', link: '/css/' }
             ]
           },
           {
             text: '正在整理',
             items: [
-              { text: 'vueJs', link: '/country/uk' }
+              { text: 'JS笔记', link: '/404/' },
+              { text: 'vueJs', link: '/404/' },
+              { text: 'AJAX', link: '/404/' },
+              { text: 'git', link: '/404/' },
             ]
           }
         ]
       },
+      { text: 'GitHub', link: 'https://github.com/JustFlyingInTheSky/notesBlog'},
       { text: '关于本站', link: '/about/' },
 
 
