@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicons.png' }]
   ],
-  base: "/notesBlog/",
+  base: "/notesblog/",
   themeConfig: {
     // 是否启用导航栏
     // navbar: true,

@@ -125,7 +125,7 @@
 | type | 定义所链接文档的类型，在这里需要指定为“text/CSS”，表示链接的外部文件为CSS样式表。我们都可以省略 |
 | href | 定义所链接外部样式表文件的URL，可以是相对路径，也可以是绝对路径。 |
 
-<img src="/notesBlog/10css外链式.jpg">
+<img src="/notesblog/10css外链式.jpg">
 
 ### 1.4 三种样式表总结（位置）
 
@@ -258,7 +258,7 @@ h3 {
 
 **案例：**
 
-<img src="/notesBlog/go.png">
+<img src="/notesblog/go.png">
 
 
 
@@ -301,7 +301,7 @@ h3 {
 
 我们可以给标签指定多个类名，从而达到更多的选择目的。
 
-<img src="/notesBlog/lei.png" />
+<img src="/notesblog/lei.png" />
 
 注意：
 
@@ -426,7 +426,7 @@ p {
   - 相对长度单位比较常用，推荐使用像素单位px，绝对长度单位使用较少。
 
 
-<img src="/notesBlog/dd.png" />
+<img src="/notesblog/dd.png" />
 
 **注意：**
 
@@ -462,7 +462,7 @@ p{font-family: Arial,"Microsoft Yahei", "微软雅黑";}
 
 #### CSS Unicode字体
 
-<img src="/notesBlog/shs.png" />
+<img src="/notesblog/shs.png" />
 
 - 为什么使用 Unicode字体
 
@@ -523,7 +523,7 @@ font-style属性用于定义字体风格，如设置斜体、倾斜或正常字�
 | normal | 默认值，浏览器会显示标准的字体样式  font-style: normal; |
 | italic | 浏览器会显示斜体的字体样式。                            |
 
-<img src="/notesBlog/good.png" />小技巧： 
+<img src="/notesblog/good.png" />小技巧： 
 
 ```
 平时我们很少给文字加斜体，反而喜欢给斜体标签（em，i）改为普通模式。
@@ -687,7 +687,7 @@ text-decoration   通常我们用于给链接修改装饰效果
 
 
 
-<img src="/notesBlog/hou.png" />
+<img src="/notesblog/hou.png" />
 
 - 当标签发生嵌套时，内层标签就成为外层标签的后代。
 - 子孙后代都可以这么选择。 或者说，它能选择任何包含在内 的标签。
@@ -708,7 +708,7 @@ text-decoration   通常我们用于给链接修改装饰效果
 
 
 
-<img src="/notesBlog/zi1.png" />
+<img src="/notesblog/zi1.png" />
 
 **pink老师一句话说出他们**
 
@@ -726,11 +726,11 @@ text-decoration   通常我们用于给链接修改装饰效果
 
   交集选择器由两个选择器构成，找到的标签必须满足：既有标签一的特点，也有标签二的特点。
 
-<img src="/notesBlog/jiaoji.png" />
+<img src="/notesblog/jiaoji.png" />
 
 - 语法：
 
-<img src="/notesBlog/jiao.png" />
+<img src="/notesblog/jiao.png" />
 
 - 其中第一个为标签选择器，第二个为class选择器，两个选择器之间**不能有空格**，如h3.special。
 
@@ -753,7 +753,7 @@ text-decoration   通常我们用于给链接修改装饰效果
 
 
 
-<img src="/notesBlog/bing.png" />
+<img src="/notesblog/bing.png" />
 
 - 任何形式的选择器（包括标签选择器、class类选择器id选择器等），都可以作为并集选择器的一部分。
 
@@ -846,7 +846,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 常见的块元素有<h1>~<h6>、<p>、<div>、<ul>、<ol>、<li>等，其中<div>标签是最典型的块元素。
 ```
 
-<img src="/notesBlog/12块级元素.png">
+<img src="/notesblog/12块级元素.png">
 
 - 块级元素的特点
 
@@ -870,7 +870,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 常见的行内元素有<a>、<strong>、<b>、<em>、<i>、<del>、<s>、<ins>、<u>、<span>等，其中<span>标签最典型的行内元素。有的地方也成内联元素
 ```
 
-<img src="/notesBlog/13行内元素.png">
+<img src="/notesblog/13行内元素.png">
 
 
 
@@ -897,7 +897,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 在行内元素中有几个特殊的标签——<img />、<input />、<td>，可以对它们设置宽高和对齐属性，有些资料可能会称它们为行内块元素。
 ```
 
-<img src="/notesBlog/14行内块元素.png">
+<img src="/notesblog/14行内块元素.png">
 
 - 行内块元素的特点：
 
@@ -929,9 +929,9 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 
 行高的测量方法：
 
-<img src="/notesBlog/line1.png"  />
+<img src="/notesblog/line1.png"  />
 
-<img src="/notesBlog/line2.png"  />
+<img src="/notesblog/line2.png"  />
 
 
 
@@ -945,7 +945,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 
 行高   =  上距离 +  内容高度  + 下距离 
 
-<img src="/notesBlog/1.png"  width="700" />
+<img src="/notesblog/1.png"  width="700" />
 
 
 
@@ -1102,7 +1102,7 @@ background: rgba(0, 0, 0, 0.3);
 
 ### 9.1 CSS层叠性
 
-<img src="/notesBlog/20层叠性.png">
+<img src="/notesblog/20层叠性.png">
 
 - 概念：
 
@@ -1117,7 +1117,7 @@ background: rgba(0, 0, 0, 0.3);
 
 ### 9.2 CSS继承性
 
-<img src="/notesBlog/21继承性.png">
+<img src="/notesblog/21继承性.png">
 
 - 概念：
 
@@ -1133,7 +1133,7 @@ background: rgba(0, 0, 0, 0.3);
 
 ### 9.3 CSS优先级（重点）
 
-<img src="/notesBlog/22优先级.png">
+<img src="/notesblog/22优先级.png">
 
 - 概念：
 
@@ -1198,11 +1198,11 @@ background: rgba(0, 0, 0, 0.3);
 
 **标准盒子模型**
 
-<img src="/notesBlog/标准盒子模型.png">
+<img src="/notesblog/标准盒子模型.png">
 
 ### 10.1 盒子边框（border）
 
-​<img src="/notesBlog/盒子边框.png">
+​<img src="/notesblog/盒子边框.png">
 
 - 语法：
 
@@ -1249,7 +1249,7 @@ border : border-width || border-style || border-color
 
 #### 10.1.3 表格的细线边框
 
-<img src="/notesBlog/表格边框.png">
+<img src="/notesblog/表格边框.png">
 
 - 通过表格的`cellspacing="0"`,将单元格与单元格之间的距离设置为0，
 
@@ -1281,11 +1281,11 @@ border : border-width || border-style || border-color
 </style>
 ~~~
 
-<img src="/notesBlog/边框合并.png">
+<img src="/notesblog/边框合并.png">
 
 ### 10.2 内边距（padding）
 
-<img src="/notesBlog/16内边距.png">
+<img src="/notesblog/16内边距.png">
 
 #### 10.2.1 内边距：
 
@@ -1316,11 +1316,11 @@ border : border-width || border-style || border-color
 | 3个值    | padding：上内边距   左右内边距   下内边距；     |
 | 4个值    | padding: 上内边距 右内边距 下内边距 左内边距 ； |
 
-<img src="/notesBlog/顺时针.jpg">
+<img src="/notesblog/顺时针.jpg">
 
 #### 10.2.3内盒尺寸计算（元素实际大小）
 
-<img src="/notesBlog/盒模型大小.png">
+<img src="/notesblog/盒模型大小.png">
 
 - 宽度
 
@@ -1336,7 +1336,7 @@ border : border-width || border-style || border-color
 
 - 问题
 
-<img src="/notesBlog/31padding问题.png">
+<img src="/notesblog/31padding问题.png">
 
   会撑大原来的盒子
 
@@ -1344,7 +1344,7 @@ border : border-width || border-style || border-color
 
   通过给设置了宽高的盒子，减去相应的内边距的值，维持盒子原有的大小
 
-<img src="/notesBlog/32padding问题解决.png">
+<img src="/notesblog/32padding问题解决.png">
 
 
 
@@ -1398,7 +1398,7 @@ h   200 +  100 +  6   =  306
 
 ### 10.3 外边距（margin）
 
-<img src="/notesBlog/18margin外边距.png">
+<img src="/notesblog/18margin外边距.png">
 
 #### 10.3.1 外边距
 
@@ -1467,7 +1467,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 
 #### 10.3.6 清除元素的默认内外边距(重要)
 
-<img src="/notesBlog/19清除内外边距.png">
+<img src="/notesblog/19清除内外边距.png">
 
 为了更灵活方便地控制网页中的元素，制作网页时，我们需要将元素的默认内外边距清除
 
@@ -1494,7 +1494,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 下面的元素有上外边距margin-top，则他们之间的垂直间距不是margin-bottom与margin-top之和
 - **取两个值中的较大者**这种现象被称为相邻块元素垂直外边距的合并（也称外边距塌陷）。
 
-<img src="/notesBlog/www.png" />
+<img src="/notesblog/www.png" />
 
 **解决方案：尽量给只给一个盒子添加margin值**。
 
@@ -1504,7 +1504,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 父元素的上外边距会与子元素的上外边距发生合并
 - 合并后的外边距为两者中的较大者
 
-<img src="/notesBlog/n.png" />
+<img src="/notesblog/n.png" />
 
 **解决方案：**
 
@@ -1539,7 +1539,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 
 ### 1.圆角边框(CSS3)
 
-<img src="/notesBlog/圆角.png">
+<img src="/notesblog/圆角.png">
 
 - 语法：
 
@@ -1555,7 +1555,7 @@ border-radius:length;
   border-radius: 50%;
   ~~~
 
-<img src="/notesBlog/radio.png" />
+<img src="/notesblog/radio.png" />
 
 * 
 * 以上效果图矩形的圆角， 就不要用 百分比了，因为百分比会是表示高度和宽度的一半。
@@ -1703,11 +1703,11 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 1. 如何让多个盒子(div)水平排列成一行？
 
-  <img src="/notesBlog/03_水平排列div.png" >
+  <img src="/notesblog/03_水平排列div.png" >
 
 2. 如何实现盒子的左右对齐？
 
-<img src="/notesBlog/float1.png" >
+<img src="/notesblog/float1.png" >
 
 虽然我们前面学过行内块（inline-block） 但是他却有自己的缺陷：
 
@@ -1731,7 +1731,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 2. 可以实现盒子的左右对齐等等..
 3. 浮动最早是用来**控制图片**，实现**文字环绕图片的效果**。
 
-<img src="/notesBlog/01_文字环绕示意图.png" />
+<img src="/notesblog/01_文字环绕示意图.png" />
 
 #### 语法
 
@@ -1753,7 +1753,7 @@ pink老师教你学浮动口诀。通过 `float`   -----  浮 漏 特
 
 浮动——浮~浮~浮~~~漂浮在普通流的上面。  脱离标准流。 俗称 “脱标”   
 
-<img src="/notesBlog/23浮动脱标.png">
+<img src="/notesblog/23浮动脱标.png">
 
 ```css
 .box1 {
@@ -1796,7 +1796,7 @@ pink老师教你学浮动口诀。通过 `float`   -----  浮 漏 特
 
 来来来，我们看个立体图
 
-<img src="/notesBlog/zou.gif" />
+<img src="/notesblog/zou.gif" />
 
 #### 3). 浮动口诀之 特
 
@@ -1832,7 +1832,7 @@ div {
 }
 ```
 
-<img src="/notesBlog/24浮动一行显示.png">
+<img src="/notesblog/24浮动一行显示.png">
 
 **注意： 浮动的元素互相贴靠一起的，但是如果父级宽度装不下这些浮动的盒子， 多出的盒子会另起一行对齐**
 
@@ -1862,11 +1862,11 @@ div {
 
 #### 浮动应用案例
 
-<img src="/notesBlog/mii.png" >
+<img src="/notesblog/mii.png" >
 
 #### 导航栏案例
 
-<img src="/notesBlog/nav.png" />
+<img src="/notesblog/nav.png" />
 
 注意，实际重要的导航栏中，我们不会直接用链接a 而是用 li  包含链接(li+a)的做法。
 
@@ -1879,7 +1879,7 @@ div {
 
 - 子盒子的浮动参照父盒子对齐
 - 不会与父盒子的边框重叠，也不会超过父盒子的内边距
- <img src="/notesBlog/05_父子盒子关系示意图.png" >
+ <img src="/notesblog/05_父子盒子关系示意图.png" >
   ​
 
 #### 2). 浮动元素与兄弟盒子的关系
@@ -1894,7 +1894,7 @@ div {
 
 > 浮动只会影响当前的或者是后面的标准流盒子，不会影响前面的标准流。
 
-<img src="/notesBlog/two1.jpg" />
+<img src="/notesblog/two1.jpg" />
 
 **建议**
 
@@ -1906,13 +1906,13 @@ div {
 
 因为父级盒子很多情况下，不方便给高度，但是子盒子浮动就不占有位置，最后父级盒子高度为0，就影响了下面的标准流盒子。
 
-<img src="/notesBlog/n.jpg" />
+<img src="/notesblog/n.jpg" />
 
 
 
 
 
-<img src="/notesBlog/no.jpg" />
+<img src="/notesblog/no.jpg" />
 
 - 总结：
   - 由于浮动元素不再占用原文档流的位置，所以它会对后面的元素排版产生影响
@@ -1977,7 +1977,7 @@ div {
 - 缺点： 由于IE6-7不支持:after，使用 zoom:1触发 hasLayout。
 - 代表网站： 百度、淘宝网、网易等
 
-<img src="/notesBlog/163.png"/>
+<img src="/notesblog/163.png"/>
 
 ##### 4).使用双伪元素清除浮动
 
@@ -2041,13 +2041,13 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 **1. 小黄色块**在图片上移动，**吸引用户的眼球**。
 
-<img src="/notesBlog/01_定位示例1.gif" />
+<img src="/notesblog/01_定位示例1.gif" />
 
 ![定位示例3](/03_定位示例3.png)
 
 **2. 当我们滚动窗口的时候，盒子是固定屏幕某个位置的**
 
-<img src="/notesBlog/ding.png" />
+<img src="/notesblog/ding.png" />
 
 > **结论**：要实现以上效果，**标准流**或**浮动**都无法快速实现
 
@@ -2097,7 +2097,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 | `absolute` | **绝对**定位 |
 | `fixed`    | **固定**定位 |
 
-<img src="/notesBlog/26定位的概念.png">
+<img src="/notesblog/26定位的概念.png">
 
 
 
@@ -2128,13 +2128,13 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 2. **父元素没有定位**，则以**浏览器**为准定位（Document 文档）。
 
-  <img src="/notesBlog/05_绝对定位_父级无定位.png" width="700" />
+  <img src="/notesblog/05_绝对定位_父级无定位.png" width="700" />
 
 3. **父元素要有定位**
 
    * 将元素依据最近的已经定位（绝对、固定或相对定位）的父元素（祖先）进行定位。
 
-<img src="/notesBlog/06_绝对定位_父级有定位.png" width="700" />
+<img src="/notesblog/06_绝对定位_父级有定位.png" width="700" />
 
 绝对定位的特点：（务必记住）
 
@@ -2157,7 +2157,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 ![子绝父相截图](/07_子绝父相截图.png)
 
-<img src="/notesBlog/27子绝父相.png">
+<img src="/notesblog/27子绝父相.png">
 
 **分析**：
 
@@ -2274,7 +2274,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 - 特点： 隐藏之后，不再保留位置。
 
-<img src="/notesBlog/29none.png">
+<img src="/notesblog/29none.png">
 
 实际开发场景：
 
@@ -2292,7 +2292,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 - 特点： 隐藏之后，继续保留原有位置。（停职留薪）
 
-<img src="/notesBlog/30visibility.png">
+<img src="/notesblog/30visibility.png">
 
 #### 13.1.3 overflow 溢出(重点)
 
@@ -2306,7 +2306,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 | **scroll**  | 不管超出内容否，总是显示滚动条             |
 | **auto**    | 超出自动显示滚动条，不超出不显示滚动条     |
 
-<img src="/notesBlog/33overflow.png">
+<img src="/notesblog/33overflow.png">
 
 实际开发场景：
 
@@ -2354,7 +2354,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 #### 13.2.2 轮廓线 outline
 
-<img src="/notesBlog/outline.png">
+<img src="/notesblog/outline.png">
 
  是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。 
 
@@ -2372,7 +2372,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 #### 13.2.3 防止拖拽文本域resize
 
-<img src="/notesBlog/34textarea.png">
+<img src="/notesblog/34textarea.png">
 
 实际开发中，我们文本域右下角是不可以拖拽： 
 
@@ -2397,7 +2397,7 @@ CSS 提供了 **3 种机制**来设置盒子的摆放位置，分别是**普通�
 
 vertical-align 垂直对齐，它只针对于**行内元素**或者**行内块元素**，
 
-<img src="/notesBlog/xian.jpg" />
+<img src="/notesblog/xian.jpg" />
 
 ```css
 vertical-align : baseline |top |middle |bottom 
@@ -2415,13 +2415,13 @@ vertical-align : baseline |top |middle |bottom
 
 所以我们知道，我们可以通过vertical-align 控制图片和文字的垂直关系了。 默认的图片会和文字基线对齐。
 
-<img src="/notesBlog/基线对齐.jpg">
+<img src="/notesblog/基线对齐.jpg">
 
 ![1498467742995](/1498467742995.png)
 
 #### 13.3.2 去除图片底侧空白缝隙
 
-<img src="/notesBlog/35vertical.png">
+<img src="/notesblog/35vertical.png">
 
 - 原因：
 
@@ -2431,11 +2431,11 @@ vertical-align : baseline |top |middle |bottom
 
 - 解决的方法就是：  
 
-  - 给img vertical-align:middle | top| bottom等等。  让图片不要和基线对齐。<img src="/notesBlog/1633.png"  width="500"  style="border: 1px dashed #ccc;" />
+  - 给img vertical-align:middle | top| bottom等等。  让图片不要和基线对齐。<img src="/notesblog/1633.png"  width="500"  style="border: 1px dashed #ccc;" />
 
     
 
-  - 给img 添加 display：block; 转换为块级元素就不会存在问题了。<img src="/notesBlog/sina1.png" width="500" style="border: 1px dashed #ccc;"/>
+  - 给img 添加 display：block; 转换为块级元素就不会存在问题了。<img src="/notesblog/sina1.png" width="500" style="border: 1px dashed #ccc;"/>
 
 ###  13.4. 溢出的文字省略号显示
 
@@ -2463,7 +2463,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 一定要首先强制一行内显示，再次和overflow属性  搭配使用
 
-<img src="/notesBlog/dot.png">
+<img src="/notesblog/dot.png">
 
 #### 13.4.3 总结三步曲
 
@@ -2480,7 +2480,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 ####  13.5.1 为什么需要精灵技术
 
-<img src="/notesBlog/sss.png" />
+<img src="/notesblog/sss.png" />
 
 图所示为网页的请求原理图，当用户访问一个网站时，需要向服务器发送请求，网页上的每张图像都要经过一次请求才能展现给用户。
 
@@ -2496,7 +2496,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 CSS 精灵其实是将网页中的一些背景图像整合到一张大图中（精灵图），然而，各个网页元素通常只需要精灵图中不同位置的某个小图，要想精确定位到精灵图中的某个小图。
 
-<img src="/notesBlog/jds.png"  style="border: 1px dashed #ccc;" />
+<img src="/notesblog/jds.png"  style="border: 1px dashed #ccc;" />
 
 这样，当用户访问该页面时，只需向服务发送一次请求，网页中的背景图像即可全部展示出来。
 
@@ -2532,13 +2532,13 @@ CSS 精灵其实是将网页中的一些背景图像整合到一张大图中（�
 
 先来体会下现实中的滑动门,或者你可以叫做推拉门：
 
-<img src="/notesBlog/h.gif" />
+<img src="/notesblog/h.gif" />
 
 ####  13.6.1滑动门出现的背景
 
 制作网页时，为了美观，常常需要为网页元素设置特殊形状的背景，比如微信导航栏，有凸起和凹下去的感觉，最大的问题是里面的字数不一样多，咋办？
 
-<img src="/notesBlog/wxx.jpg" />
+<img src="/notesblog/wxx.jpg" />
 
 为了使各种特殊形状的背景能够自适应元素中文本内容的多少，出现了CSS滑动门技术。它从新的角度构建页面，使各种特殊形状的背景能够自由拉伸滑动，以适应元素内部的文本内容，可用性更强。 最常见于各种导航栏的滑动门。
 
@@ -2612,7 +2612,7 @@ css样式
 
 ##### 13.7.1.2 压住盒子相邻边框
 
-<img src="/notesBlog/margin.png" />
+<img src="/notesblog/margin.png" />
 
 
 
@@ -2640,7 +2640,7 @@ css样式
 
 一张图， 你就知道 css 三角是怎么来的了, 做法如下：
 
-<img src="/notesBlog/notesBlog/arr.png" />
+<img src="/notesblog/notesBlog/arr.png" />
 
 1. 我们用css 边框可以模拟三角效果
 2. 宽度高度为0
