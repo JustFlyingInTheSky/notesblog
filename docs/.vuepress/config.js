@@ -26,7 +26,9 @@ module.exports = {
             text: '整理完成',
             items: [
               { text: 'HTML笔记', link: '/html/' },
-              { text: 'CSS笔记', link: '/css/' }
+              { text: 'CSS笔记', link: '/css/' },
+              { text: 'Git笔记', link: '/git/' },
+              { text: 'GitHub', link: '/github/' },
             ]
           },
           {
@@ -35,7 +37,7 @@ module.exports = {
               { text: 'JS笔记', link: '/404/' },
               { text: 'vueJs', link: '/404/' },
               { text: 'AJAX', link: '/404/' },
-              { text: 'git', link: '/404/' },
+              { text: '算法', link: '/404/' },
             ]
           }
         ]
