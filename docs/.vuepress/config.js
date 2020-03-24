@@ -38,6 +38,7 @@ module.exports = {
               { text: 'vueJs', link: '/404/' },
               { text: 'AJAX', link: '/404/' },
               { text: '算法', link: '/404/' },
+              { text: 'ES6', link: '/404/' }
             ]
           }
         ]
